@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         String player1Name = ((EditText) findViewById(R.id.player1Name)).getText().toString();
         String player2Name = ((EditText) findViewById(R.id.player2Name)).getText().toString();
 
-        if (player1Name.length() == 0 && player2Name.length() == 0) {
+        if (player1Name.length() == 0 || player2Name.length() == 0) {
             Toast.makeText(this, "Please Enter Players Names", Toast.LENGTH_LONG).show();
         } else {
 //            navigate to new activity
