@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TICK TAC TOE</string>
+
+    <!--    Main Activity -->
+    <string name="title">ENTER NAMES TO START THE GAME</string>
+    <string name="textF1">Player 1 Name</string>
+    <string name="textF2">Player 2 Name</string>
+    <string name="startBtn">START</string>
+
+    <!--    Game Activity -->
+    <string name="checkBtn">CHECK</string>
+
+    <!--    GameOver Activity -->
+    <string name="BackButton">New Game</string>
+
+</resources>
